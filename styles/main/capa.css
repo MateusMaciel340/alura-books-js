@@ -1,0 +1,16 @@
+/* Main - Capa */
+.capa {
+    background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
+    text-align: center;
+    padding: 7rem 0 3rem 0;
+    color: var(--bg-color);
+}
+
+.capa-titulo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.capa-texto {
+    font-size: 18px;
+}

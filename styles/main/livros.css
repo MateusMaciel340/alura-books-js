@@ -1,0 +1,64 @@
+/* Livros */
+.livros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+}
+
+.livros__card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    gap: 15px;
+
+    flex-basis: calc(25% - 1rem);
+    margin-top: 1rem;
+}
+
+.livros__card-titulo {
+    color: var(--text-description-color);
+    font-size: 15px;
+}
+
+.livros__card-autor {
+    color: var(--text-author-color);
+}
+
+.livros__card-imagem {
+    width: 100%;
+}
+
+.livros__card-tipo-livros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.livros__card-tipo-livros-opcoes {
+    text-decoration: none;
+    color: var(--bg-color);
+    background-color: var(--text-author-color);
+    padding: 0.2rem;
+    margin: 0.3rem 0.2rem;
+
+    flex-basis: calc(33.3% - 1rem);
+}
+
+@media screen and (max-width: 760px) {
+    .livros__card {
+        flex-basis: calc(33.3% - 1rem);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .livros__card {
+        flex-basis: calc(50% - 1rem);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .livros__card {
+        flex-basis: calc(100% - 1rem);
+    }
+}

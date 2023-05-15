@@ -1,0 +1,12 @@
+/* Rodapé */
+
+.rodape {
+    background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
+    padding: 1rem 0;
+}
+
+.rodape-texto {
+    text-align: center;
+    color: var(--bg-color);
+    font-weight: bold;
+}

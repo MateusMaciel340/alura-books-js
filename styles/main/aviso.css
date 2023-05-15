@@ -1,0 +1,24 @@
+/* Main - Aviso */
+.aviso-livros {
+    background-color: var(--text-title-color);
+    padding: 0.5rem 0;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.aviso-livros__titulo {
+    color: var(--bg-color);
+    font-size: 25px;
+}
+
+@media screen and (max-width: 720px) {
+    .aviso-livros__titulo {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 447px) {
+    .aviso-livros__titulo {
+        font-size: 15px;
+    }
+}

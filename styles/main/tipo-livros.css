@@ -1,0 +1,60 @@
+/* Main - Tipos de livros */
+.tipos-livros {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.tipos-livros__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipos-livros__menu-item {
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+
+    flex-basis: calc(18% - 1rem);
+}
+
+.tipos-livros__menu-item-link {
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--bg-color);
+    padding: 0.5rem 0.8rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tipos-livros__menu-item-link:hover {
+    border: 1px solid var(--text-title-color);
+}
+
+
+@media screen and (max-width: 1039px) {
+    .tipos-livros__menu-item {
+        flex-basis: calc(25% - 1rem);
+    }
+} 
+
+@media screen and (max-width: 758px) {
+    .tipos-livros__menu-item {
+        flex-basis: calc(33.3% - 1rem);
+    }
+} 
+
+@media screen and (max-width: 564px) {
+    .tipos-livros__menu-item {
+        flex-basis: calc(50% - 1rem);
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .tipos-livros__menu-item {
+        flex-basis: calc(100% - 1rem);
+    }
+}
