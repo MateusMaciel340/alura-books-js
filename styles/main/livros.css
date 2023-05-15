@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.indisponivel {
+    opacity: 0.3;
+}
+
 .livros__card-tipo-livros {
     display: flex;
     flex-wrap: wrap;
