@@ -1,12 +1,12 @@
 /* Main - Aviso */
 .aviso-livros {
-    background-color: var(--text-title-color);
     padding: 0.5rem 0;
     text-align: center;
     margin: 1rem 0;
 }
 
 .aviso-livros__titulo {
+    background-color: var(--text-title-color);
     color: var(--bg-color);
     font-size: 25px;
 }
