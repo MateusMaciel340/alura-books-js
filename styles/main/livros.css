@@ -19,11 +19,16 @@
 
 .livros__card-titulo {
     color: var(--text-description-color);
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .livros__card-autor {
     color: var(--text-author-color);
+}
+
+.livros__card-preco {
+    color: var(--text-price-color);
+    font-size: 25px;
 }
 
 .livros__card-imagem {
@@ -42,7 +47,7 @@
     padding: 0.2rem;
     margin: 0.3rem 0.2rem;
 
-    flex-basis: calc(33.3% - 1rem);
+    flex-basis: calc(50% - 1rem);
 }
 
 @media screen and (max-width: 760px) {
